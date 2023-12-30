@@ -145,40 +145,34 @@ json.loads(out['output'].split('\n')[0])
 
 # %%
 job = """
-Cook for Ferry Cafeteria
+Chef on Ferry on Øresundslinjen
 
 About the Role:
-We are looking for an enthusiastic and experienced Cook to join our team aboard our ferry service between Helsingør and Helsingborg. This position will be based in the ferry's cafeteria, where you will play a key role in providing our passengers with delicious and satisfying meals during their journey.
-You will be hired by the Danish company that operates the ferry service, but you will be working on board the ferry, which is registered in Sweden.
-You'll always be boarding from Helsingør and it is an advantage if you live on the Danish side of Øresund.
+We are looking for a chef to join our team aboard our ferry service between Helsingør and Helsingborg.
 
 Key Responsibilities:
-
 Prepare and cook a variety of dishes for the cafeteria menu, ensuring consistent quality.
 Manage kitchen inventory and supplies, and place orders as necessary.
 Maintain cleanliness and hygiene standards in the kitchen and serving areas.
 Comply with all health and safety regulations regarding food preparation and storage.
 Work closely with the cafeteria team to provide excellent customer service.
 Adapt menu items to cater to a diverse range of dietary needs and preferences.
-Qualifications:
 
+Qualifications:
 Proven experience as a cook.
 Knowledge of various cooking procedures and methods.
 Ability to work efficiently in a fast-paced environment.
 Strong organizational and time management skills.
 Excellent communication and teamwork abilities.
 A passion for food and a commitment to quality service.
-What We Offer:
 
+What We Offer:
 A unique working environment on a ferry connecting Denmark and Sweden.
 Competitive salary and benefits.
 Opportunities for career growth and development in the maritime and hospitality sectors.
 A supportive and dynamic team.
-How to Apply:
-Interested candidates are invited to submit their application, including a resume and cover letter, to [email@ferryservice.com]. The deadline for applications is [Insert Date].
-
-We are committed to creating a diverse environment and are proud to be an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status.
 """
 
 out = agent_executor.invoke({"input": job})
 json.loads(out['output'].split('\n')[0])
+# %%
